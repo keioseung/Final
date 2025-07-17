@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from app.api import auth, data, quiz, prompt, combine
+from .api import auth, data, quiz, prompt, combine
 
 app = FastAPI()
 
